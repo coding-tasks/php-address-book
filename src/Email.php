@@ -35,6 +35,6 @@ class Email
      */
     public function isValid() : bool
     {
-        return filter_var($this->email, FILTER_VALIDATE_EMAIL);
+        return filter_var($this->email, FILTER_VALIDATE_EMAIL) !== false;
     }
 }

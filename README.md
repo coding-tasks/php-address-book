@@ -1,4 +1,4 @@
-## Address Book [![Travis](https://img.shields.io/travis/ankitpokhrel/address-book.svg?style=flat-square)](https://travis-ci.org/ankitpokhrel/address-book)
+## PHP Address Book [![Travis](https://img.shields.io/travis/ankitpokhrel/php-address-book.svg?style=flat-square)](https://travis-ci.org/ankitpokhrel/php-address-book)
 _A very simple address book implementation_
 
 ### Requirements
@@ -16,13 +16,13 @@ You can do so by using `repositories` field in your composer file.
    }
  ],
  "require": {
-   "ankitpokhrel/address-book": "*"
+   "ankitpokhrel/php-address-book": "@dev"
  }
  ```
  
  Or, just load the autoloader.
  ```php
- include_once 'address-book/vendor/autoload.php';
+ include_once '/path/to/php-address-book/vendor/autoload.php';
  ```
 
 ### Usage

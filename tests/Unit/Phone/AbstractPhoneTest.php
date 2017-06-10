@@ -5,6 +5,9 @@ namespace App\Tests\Phone;
 use App\Phone\AbstractPhone;
 use PHPUnit\Framework\TestCase;
 
+/**
+ * @coversDefaultClass \App\Phone\AbstractPhone
+ */
 class AbstractPhoneTest extends TestCase
 {
     protected $abstractPhoneMock;
@@ -19,6 +22,10 @@ class AbstractPhoneTest extends TestCase
 
     /**
      * @test
+     *
+     * @covers ::__construct
+     * @covers ::getNumber
+     * @covers ::getType
      */
     public function it_sets_number_and_type()
     {
@@ -35,6 +42,8 @@ class AbstractPhoneTest extends TestCase
 
     /**
      * @test
+     *
+     * @covers ::__construct
      *
      * @expectedException \InvalidArgumentException
      * @expectedExceptionMessage Mobile phone invalid.

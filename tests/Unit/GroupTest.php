@@ -34,7 +34,7 @@ class GroupTest extends TestCase
      * @expectedException \InvalidArgumentException
      * @exceptedExceptionMessage Invalid group name.
      */
-    public function it_throws_exception_if_first_name_is_invalid()
+    public function it_throws_exception_if_group_name_is_invalid()
     {
         new Group('');
     }

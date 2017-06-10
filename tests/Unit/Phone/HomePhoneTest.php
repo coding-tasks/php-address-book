@@ -61,7 +61,7 @@ class HomePhoneTest extends TestCase
     /**
      * @test
      *
-     * @covers ::getNumber
+     * @covers ::getType
      */
     public function it_gets_a_type()
     {

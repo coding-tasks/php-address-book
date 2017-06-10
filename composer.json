@@ -1,6 +1,6 @@
 {
-  "name": "ankitpokhrel/address-book",
-  "description": "Address book",
+  "name": "ankitpokhrel/php-address-book",
+  "description": "PHP Address book",
   "type": "library",
   "license": "MIT",
   "authors": [

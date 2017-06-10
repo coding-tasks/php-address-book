@@ -54,7 +54,7 @@ class PersonTest extends TestCase
      * @covers ::addGroup
      * @covers ::groups
      */
-    public function it_sets_group()
+    public function it_adds_group()
     {
         $group1 = new Group('public');
         $group2 = new Group('private');
@@ -70,7 +70,7 @@ class PersonTest extends TestCase
      * @covers ::addPhone
      * @covers ::phones
      */
-    public function it_sets_phone()
+    public function it_adds_phone()
     {
         $mobilePhone = new MobilePhone('1234567890');
         $homePhone   = new HomePhone('1234567');
@@ -86,7 +86,7 @@ class PersonTest extends TestCase
      * @covers ::addEmail
      * @covers ::emails
      */
-    public function it_sets_email()
+    public function it_adds_email()
     {
         $email1 = new Email('info@ankitpokhrel.com');
         $email2 = new Email('sales@ankitpokhrel.com');
@@ -105,7 +105,7 @@ class PersonTest extends TestCase
      * @covers ::addAddress
      * @covers ::address
      */
-    public function it_sets_address()
+    public function it_adds_address()
     {
         $address1 = new Address('Sathorn, Soi Sribumphen');
         $address2 = new Address('Bangkok, Thailand');

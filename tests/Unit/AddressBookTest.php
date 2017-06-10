@@ -30,6 +30,7 @@ class AddressBookTest extends TestCase
     /**
      * @test
      *
+     * @covers ::__construct
      * @covers ::getName
      * @covers ::setName
      */
@@ -79,6 +80,8 @@ class AddressBookTest extends TestCase
     /**
      * @test
      *
+     * @covers ::addContact
+     *
      * @expectedException \InvalidArgumentException
      * @expectedExceptionMessage Invalid contact.
      */
@@ -121,6 +124,8 @@ class AddressBookTest extends TestCase
 
     /**
      * @test
+     *
+     * @covers ::addGroup
      *
      * @expectedException \InvalidArgumentException
      * @expectedExceptionMessage Invalid group.
